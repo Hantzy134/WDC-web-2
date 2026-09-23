@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    color: white;
+    font-family: "Poppins";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding-inline: 60px;
+    padding-block: 30px;
+}
+
+.navbar h1 {
+    color:brown;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-menu a {
+    color:white;
+    text-decoration: none;
+    font-weight: 720;
+}
+
+.nav-menu a:hover {
+    color:brown;
+    animation-duration: 10ms;
+}
+
+.hero-section {
+    padding-block: 130px;
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h1 {
+    font-size: 75px;
+    
+}
+
+.content h1 span {
+    color:brown;
+}
+
+.content h2 {
+    font-size: 50px;
+}
+
+.content h2 span {
+    color: brown;
+}
+
+.content p {
+    max-width: 500px;
+}
+
+img {
+    width: 700px;
+    border-radius: 100%;
+}
+
+.btn-medsos button a:hover {
+    background-color: transparent;
+    color: white;
+    border-color: brown;
+}
+
+.btn-medsos button a {
+    background-color: transparent;
+    color: white;
+    border-color: brown;
+}
+
+.btn-medsos {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.btn-medsos button {
+    padding: 15px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: white;
+    border-color: brown;
+    outline: none;
+}
+
+.btn-medsos button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.hire-me {
+    width: 150px;
+    margin-top: 25px;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: brown;
+}
+
+.hire-me:hover {
+    background-color: brown;
+    color: white;
+}
